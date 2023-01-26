@@ -19,7 +19,7 @@
 		3F1E14902981BF7700E64723 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F1E14952981BF7C00E64723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1E14982981BF7C00E64723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F1E149A2981BF7C00E64723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1E149A2981BF7C00E64723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Files/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +52,11 @@
 		3F1E148B2981BF7700E64723 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				3F1E14A129822E2200E64723 /* Files */,
+				3F1E14C52982439000E64723 /* Files */,
 				3F1E14A429822E6D00E64723 /* Login */,
 				3F1E148C2981BF7700E64723 /* AppDelegate.swift */,
 			);
 			path = Bankey;
-			sourceTree = "<group>";
-		};
-		3F1E14A129822E2200E64723 /* Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F1E14952981BF7C00E64723 /* Assets.xcassets */,
-				3F1E14972981BF7C00E64723 /* LaunchScreen.storyboard */,
-				3F1E149A2981BF7C00E64723 /* Info.plist */,
-			);
-			path = Files;
 			sourceTree = "<group>";
 		};
 		3F1E14A429822E6D00E64723 /* Login */ = {
@@ -75,6 +65,16 @@
 				3F1E14902981BF7700E64723 /* LoginViewController.swift */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		3F1E14C52982439000E64723 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E14952981BF7C00E64723 /* Assets.xcassets */,
+				3F1E14972981BF7C00E64723 /* LaunchScreen.storyboard */,
+				3F1E149A2981BF7C00E64723 /* Info.plist */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
