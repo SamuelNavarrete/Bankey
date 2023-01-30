@@ -184,7 +184,7 @@ class LoginViewController: UIViewController {
 }
 
 
-// MARK: Actions
+// MARK: Actions for buttons
 extension LoginViewController {
     
     func SetTargets(){
