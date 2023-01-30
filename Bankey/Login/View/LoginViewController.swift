@@ -100,7 +100,6 @@ class LoginViewController: UIViewController {
         dividerView.translatesAutoresizingMaskIntoConstraints = false
         dividerView.backgroundColor = .secondarySystemFill
         dividerView.layer.cornerRadius = 5
-//        dividerView.clipsToBounds = true
         return dividerView
     }()
     
