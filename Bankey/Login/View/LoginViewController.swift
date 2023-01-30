@@ -45,7 +45,6 @@ class LoginViewController: UIViewController {
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.backgroundColor = .secondarySystemBackground
         contentView.layer.cornerRadius = 5
-//        contentView.clipsToBounds = true
         return contentView
     }()
     
