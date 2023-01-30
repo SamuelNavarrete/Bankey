@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
         let signInButton = UIButton(type: .system)
         signInButton.translatesAutoresizingMaskIntoConstraints = false
         signInButton.configuration = .filled()
-        signInButton.configuration?.imagePadding = 8 // for indicator spacing
+        signInButton.configuration?.imagePadding = 8
         signInButton.setTitle("Sign In", for: [])
         return signInButton
     }()
